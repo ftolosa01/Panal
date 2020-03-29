@@ -1,0 +1,100 @@
+
+
+.fondo-blur {
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    background-image:url(p1.jpg) ;
+  }
+  
+h1 {
+
+color : red ;
+text-align : center ;
+}
+div{
+  margin: auto;
+}
+p1{
+    box-shadow: 6px 6px 6px rgb(255, 0, 0);
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: black;
+}
+p{
+  box-shadow: 6px 6px 6px  black;
+}
+#titw{
+
+text-align: center;
+color: brown;
+}
+#carrusel{
+
+margin-left: -15;
+margin-right: -15;
+
+}
+.fondo-texto{
+background-color: brown;
+
+}
+.carousel-inner img {
+    width: 50%;
+    max-height: 320px;
+}
+
+.carousel-inner{
+ height: 200px;
+}
+
+
+.bg-personal{
+  width: 100%;
+  height: 220px;
+  background-color: #000000; /*Tu IMAGEN*/
+}
+
+.bg-personal2{
+  width: 25%;
+  height: 220px;
+  background-color: #ff00ff; /*Tu IMAGEN*/
+}
+
+
+#boton{
+
+text-align: center;
+
+
+
+}
+
+
+
+#asd{
+text-align: center;
+color:black;
+
+}
+
+p{
+font-family : verdana;
+font-size : 20px;
+
+
+
+}
+.carousel-content {
+  position: center;
+  bottom: 10%;
+  top: 10%;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.p1 img {
+  width: 50%;
+  max-height: 320px;
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+
+  <style>
+    body {
+      background-image: url('https://cdn130.picsart.com/255165980017202.gif?to=min&r=480');
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% 100%;
+    }
+    </style>
+  <head xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <title>Ideas</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div>
+
+
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="/#">Panal</a>
+        <img src="https://i0.pngocean.com/files/262/655/826/bee-graphic-design-bees.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ">
+            <li class="nav-item">
+            </li>
+        </ul>
+        </div>
+    </nav>
+</div>
+
+<div class="row  justify-content-center mt-4">
+    <div class="col-6">
+        <h2>Crear Usuario</h2>
+        <form action="" th:action="@{/Usuario}" method="post" th:object="${UsuariosCreados}">
+
+            <div class="form-group">
+                <label for="">Usuario </label>
+              <input type="text"
+                class="form-control" name="" id=" "th:field="*{nombre}">
+                <label for="">Contraseña</label>
+              <input type="password"
+                class="form-control" name="" id=" "th:field="*{password}">
+<!--                <label for="">Id Cuenta </label>
+              <input type="text"
+                class="form-control" name="" id=" "th:field="*{crearCuentaId}">-->
+            
+            </div>
+
+            <button type="submit" class="btn btn-block btn-primary float-center"href="/Login">Crear</button>
+        </form>
+    </div>
+    
+</div>
+
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+

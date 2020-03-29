@@ -1,0 +1,12 @@
+com\ufro\proyectoPanal\DAO\UsuarioDAO.class
+com\ufro\proyectoPanal\modelo\Usuario.class
+com\ufro\proyectoPanal\DAO\IdeasDAO.class
+com\ufro\proyectoPanal\controlador\IdeasController.class
+com\ufro\proyectoPanal\ProyectoPanalApplication.class
+com\ufro\proyectoPanal\controlador\UsuarioController.class
+com\ufro\proyectoPanal\modelo\Ideas.class
+com\ufro\proyectoPanal\modelo\Respuesta.class
+com\ufro\proyectoPanal\modelo\Respuesta_.class
+com\ufro\proyectoPanal\DAO\RespuestaDAO.class
+com\ufro\proyectoPanal\modelo\Ideas_.class
+com\ufro\proyectoPanal\modelo\Usuario_.class
